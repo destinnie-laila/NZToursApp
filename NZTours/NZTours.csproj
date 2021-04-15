@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2CCB938-1B0F-4776-8BBC-DA1FCB7A0BED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NZTours</RootNamespace>
+    <AssemblyName>NZTours</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsCost.cs" />
+    <Compile Include="clsOtherCost.cs" />
+    <Compile Include="clsStaffCost.cs" />
+    <Compile Include="ClsTourComapany.cs" />
+    <Compile Include="clsVehicleCost.cs" />
+    <Compile Include="frmCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCost.Designer.cs">
+      <DependentUpon>frmCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaffCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaffCost.Designer.cs">
+      <DependentUpon>frmStaffCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOtherCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOtherCost.Designer.cs">
+      <DependentUpon>frmOtherCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVehicle.Designer.cs">
+      <DependentUpon>frmVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messagebox.Designer.cs">
+      <DependentUpon>messagebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsTour.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTour.Designer.cs">
+      <DependentUpon>frmTour.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmCost.resx">
+      <DependentUpon>frmCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaffCost.resx">
+      <DependentUpon>frmStaffCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOtherCost.resx">
+      <DependentUpon>frmOtherCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVehicle.resx">
+      <DependentUpon>frmVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messagebox.resx">
+      <DependentUpon>messagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmTour.resx">
+      <DependentUpon>frmTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

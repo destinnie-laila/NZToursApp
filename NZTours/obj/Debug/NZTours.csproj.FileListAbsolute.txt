@@ -1,0 +1,16 @@
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.csprojAssemblyReference.cache
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.frmMain.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.frmStaffCost.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.frmOtherCost.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.frmVehicle.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.messagebox.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.Properties.Resources.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.csproj.GenerateResource.cache
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.csproj.CoreCompileInputs.cache
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.frmTour.resources
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\bin\Debug\NZTours.exe.config
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\bin\Debug\NZTours.exe
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\bin\Debug\NZTours.pdb
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.exe
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.pdb
+C:\Users\Dee\Documents\SDV601\NZTours\NZTours\obj\Debug\NZTours.frmCost.resources
